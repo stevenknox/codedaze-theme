@@ -88,6 +88,10 @@
   content: "\e80a";
 }
 
+.icon-pluralsight:before {
+  content: "\f144";
+}
+
 body {
   background-color: #f7f9fa;
   color: #3c3d47;

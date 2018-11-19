@@ -39,6 +39,7 @@
                             {{title}}</a>
                         </h1>
 
+                        {{#is "post"}}
                         <div class="row post-info">
                             <div class="column published">
                                 <time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time>
@@ -46,22 +47,10 @@
                             <div class="column read-time">
                                 {{reading_time}}
                             </div>
-                            <div class="column share">
-                                <span>Share On</span>
-                                <ul>
-                                    <li><a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                                        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a></li>
-                                    <li><a class="icon-twitter"  href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
-                                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this page"></a></li>
-                                    <li><a class="icon-gplus"  href="https://plus.google.com/share?url={{url absolute="true"}}"
-                                        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+"></a></li>
-                                    <li><a class="icon-linkedin"  href="https://www.linkedin.com/shareArticle?mini=true&url={{url absolute="true"}}&title={{encode title}}" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on LinkenIn"></a></li>
-                                </ul>
-                            </div>
                         </div>
-                        
+                        {{/is}}
                         {{content}}
-                        
+                        {{#is "post"}}
                         <div class="share-buttons meta-info">
                             <span>Share On</span>
                             <ul>
@@ -85,12 +74,13 @@
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
-                            s.src = 'https://codedaze.disqus.com/embed.js';
+                            s.src = 'https://stevenknox.disqus.com/embed.js';
                             s.setAttribute('data-timestamp', +new Date());
                             (d.head || d.body).appendChild(s);
                         })();
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                     {{/is}}
                 </div>
 
                 {{> sidebar}}
