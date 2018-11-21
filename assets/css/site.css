@@ -186,8 +186,8 @@ blockquote::after {
 
 pre {
   border-left: none;
-  border-top: .4rem solid #ff6600;
-  border-bottom: .4rem solid #ff6600;
+  /* border-top: .4rem solid #ff6600;
+  border-bottom: .4rem solid #ff6600; */
   margin-bottom: 2.5rem !important;
 }
 
