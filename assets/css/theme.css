@@ -1025,7 +1025,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: #006CD8;
+    color: #2d83d8;;
     transition: all .3s ease
 }
 
@@ -1060,18 +1060,18 @@ nav img {
 }
 
 .button {
-    border-color: #006CD8
+    border-color: #2d83d8;
 }
 
 .button.button-outline {
-    color: #006CD8
+    color: #2d83d8;
 }
 
 blockquote {
     font-size: 2.5rem;
     font-style: italic;
     text-align: center;
-    border-left: .4rem solid #006CD8
+    border-left: .4rem solid #2d83d8;
 }
 
 blockquote:before {
@@ -1092,8 +1092,8 @@ blockquote:after {
 
 pre {
     border-left: none;
-    /* border-top: .4rem solid #006CD8;
-    border-bottom: .4rem solid #006CD8; */
+    /* border-top: .4rem solid #2d83d8;;
+    border-bottom: .4rem solid #2d83d8;; */
     margin-bottom: 2.5rem!important
 }
 
@@ -1198,11 +1198,11 @@ header .mobile-nav .nav>li>a {
 }
 
 header .mobile-nav .nav>li>a:hover {
-    color: #006CD8
+    color: #2d83d8;
 }
 
 header .mobile-nav .nav>li.nav-current>a {
-    color: #006CD8;
+    color: #2d83d8;;
     font-weight: 700
 }
 
@@ -1244,7 +1244,7 @@ header .mobile-nav .secondary-nav>li:first-child>a {
 }
 
 header .mobile-nav .secondary-nav>li>a:hover {
-    color: #006CD8
+    color: #2d83d8;
 }
 
 header>.secondary-nav {
@@ -1373,7 +1373,7 @@ article h2.posts-header {
 }
 
 article h2>a {
-    color: #006CD8
+    color: #2d83d8;
 }
 
 article h2>a:hover {
@@ -1586,7 +1586,7 @@ figcaption {
     color: #3c3d47;
     background: #fff;
     transition: all .2s ease;
-    border-top: 5px solid #006CD8
+    border-top: 5px solid #2d83d8;
 }
 
 .next-story:hover section:before,
@@ -1598,7 +1598,7 @@ figcaption {
 
 footer.main {
     background-color: #383838;
-    border-top: 4px solid #006CD8;
+    border-top: 4px solid #2d83d8;;
     color: #fff;
     padding: 30px 0;
     clear: both;
@@ -1692,10 +1692,10 @@ footer.main.post {
         color: #fff
     }
     header .primary-nav>.nav>li>a:hover {
-        color: #006CD8
+        color: #2d83d8;
     }
     header .primary-nav>.nav>li.nav-current>a {
-        color: #006CD8;
+        color: #2d83d8;;
         font-weight: 700
     }
     header .secondary-nav {
@@ -1739,7 +1739,7 @@ footer.main.post {
         font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif
     }
     header .secondary-nav li>a:hover {
-        color: #006CD8
+        color: #2d83d8;
     }
     header .mobile-nav {
         display: none!important
@@ -1821,7 +1821,7 @@ footer.main.post {
     #side-bar>.author>img {
         padding: 1px;
         border-radius: 100%;
-        border: 2px solid #006CD8;
+        border: 2px solid #2d83d8;;
         width: 175px
     }
     #side-bar>.author>p {
