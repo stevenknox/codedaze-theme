@@ -1278,12 +1278,12 @@ header>.secondary-nav {
     margin-top: 0;
     margin-bottom: 2rem;
     font-size: 3rem;
-    text-align: center
+    text-align: center;
 }
 
 .post-summary-header,
 .post-summary-meta {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: .5px
 }
 
@@ -1354,7 +1354,6 @@ article h1 {
 
 article h1,
 article h2 {
-    text-transform: uppercase;
     letter-spacing: .5px
 }
 
