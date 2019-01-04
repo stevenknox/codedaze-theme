@@ -14,9 +14,22 @@
             </nav>
         </div>
     </div>
-    <div class="secondary-nav">
+         <div class="secondary-nav">
         <div class="container">
-            {{#get "tags" limit="all" include="count.posts" order="name asc"}}
+            <ul>
+                <li><a href="https://stevenknox.net/tag/asp-net-core/">ASP.NET CORE</a></li>
+                <li><a href="https://stevenknox.net/tag/net-core/">.NET CORE</a></li>
+                <li><a href="https://stevenknox.net/tag/azure/">AZURE</a></li>
+                <li><a href="https://stevenknox.net/tag/azure-devops/">AZURE DEVOPS</a></li>
+                <li><a href="https://stevenknox.net/tag/csharp/">CSHARP</a></li>
+                <li><a href="https://stevenknox.net/tag/fitness/">FITNESS</a></li>
+                <li><a href="https://stevenknox.net/tag/personal-development/">PERSONAL DEVELOPMENT</a></li>
+            </ul>
+        </div>  
+    </div>
+    {{!-- <div class="secondary-nav">
+        <div class="container">
+            {{#get "tags" limit="8" include="count.posts" order="name asc"}}
             <ul>
                 {{#foreach tags}}
                     <li><a href="{{url}}">{{name}}</a></li>
@@ -24,7 +37,7 @@
             </ul>
             {{/get}}
         </div>  
-    </div>
+    </div> --}}
     <div class="mobile-nav">
         <div class="container">
             <div class="row">
